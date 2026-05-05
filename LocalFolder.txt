@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maktaba ya Dorcas</title>
+</head>
+<body>
+  <h1>Karibu kwenye Maktaba</h1>
+  <p>Hii ni tovuti yangu ya vitabu na masomo.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <title>Maktaba ya Dorcas</title>
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="#home">Nyumbani</a> |
+    <a href="#books">Vitabu</a> |
+    <a href="#lessons">Masomo</a> |
+    <a href="#contact">Mawasiliano</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Karibu kwenye Maktaba ya Dorcas</h1>
+    <p>Hii ni tovuti yangu ya vitabu na masomo.</p>
+  </section>
+
+  <!-- Books Section -->
+  <section id="books">
+    <h2>Vitabu</h2>
+    <ul>
+      <li>Hisabati ya Sekondari</li>
+      <li>Fasihi ya Kiswahili</li>
+      <li>Physics Advanced</li>
+    </ul>
+  </section>
+
+  <!-- Lessons Section -->
+  <section id="lessons">
+    <h2>Masomo</h2>
+    <p>Hapa utapata mafunzo ya video na maandishi kuhusu masomo mbalimbali.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Mawasiliano</h2>
+    <p>Wasiliana nasi: info@maktaba.co.tz</p>
+  </section>
+</body>
+</html>
+<head>
+  <meta charset="UTF-8">
+  <title>Maktaba ya Dorcas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+/* Navigation bar */
+nav {
+  background: #2c3e50;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+/* Headings */
+h1, h2 {
+  color: #2c3e50;
+}
+
+/* Contact section */
+#contact {
+  background: #ecf0f1;
+  text-align: center;
+}
+
+<script>
+  function toggleBooks() {
+    var list = document.getElementById("bookList");
+    if (list.style.display === "none") {
+      list.style.display = "block";
+    } else {
+      list.style.display = "none";
+    }
+  }
+</script>
+
